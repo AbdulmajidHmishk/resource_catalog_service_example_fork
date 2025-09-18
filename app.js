@@ -11,6 +11,8 @@ import 'dotenv/config'; // Importiert und konfiguriert dotenv, um Umgebungsvaria
 import cors from 'cors'; // Importiert das CORS-Middleware-Paket.
 import { connectDB } from './db/connect.js';
 
+
+
 /**
  * @constant {number} PORT - Der Port, auf dem der Server lauschen soll.
  * Wird aus den Umgebungsvariablen (`process.env.PORT`) gelesen oder auf 5002 als Standardwert gesetzt.
